@@ -1,0 +1,278 @@
+/* Background Image */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(brian-patrick-tagalog-_8hGFBxWD0A-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+/* Navbar containg Home,Bio,Skills,Projects,Contact */
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+/* Icon @Shiva */
+.icon{
+        width: 50px;
+        height: 77px;
+        margin-left: 25px;
+        margin-top: 3px;
+}
+
+/* CSS for Logo */
+.icon img{
+    width: 75px;
+    height: 107px;
+    margin-left: 5px;
+    margin-top: 55px;
+}
+
+/* CSS for Home,Bio,Skills,Project,Contact */
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 80px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: cyan;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: rgb(157, 196, 229);
+}
+/* CSS for search bar */
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 462px;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid cyan;
+    margin-top: 13px;
+    color: rgb(193, 235, 235);
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+/* Search btn */
+.btn{
+    width: 100px;
+    height: 40px;
+    background: cyan;
+    border: 2px solid cyan;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color:rgb(157, 196, 229) ;
+    color: #000;
+}
+
+/* CSS for Body Content */
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+    margin-top: 185px;
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+/* CSS for h1 */
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 70px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.content h1 span1{
+    font-size: 40px;
+}
+
+.content h1 span2{
+    font-size: 30px;
+    color: aqua;
+}
+/* CSS for btn2 "Join Us" */
+.content .btn2{
+    width: 89px;
+    height: 25px;
+    background: cyan;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 18px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    
+}
+
+.content .btn2 a{
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease;
+}
+
+.btn2:hover{
+    background-color: rgb(157, 196, 229);
+}
+/* Form CSS starts from Here */
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    transform: translate(0%,-5%);
+    border-radius: 10px;
+    padding: 25px;
+}
+
+/* CSS for h2 */
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: cyan;
+    border: 2px solid cyan;
+    font-size: 22px;
+    background-color: black;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid cyan;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+
+/* CSS for btn3 "Submit" */
+.btn3{
+    width: 89px;
+    height: 26px;
+    background: cyan;
+    margin-top: 25px;
+    margin-left: 74px;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+
+.btn3 a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.btn3:hover{
+    background-color: rgb(157, 196, 229);
+}
+
+/* link for "log in" but for now this button takes you to the login page of LinkedIn */
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.form .link a{
+    text-decoration: none;
+    color: cyan;
+}
+.form .link a:hover{
+    background-color: rgb(157, 196, 229);
+}
+
+/* "liw" means "Log in with" */
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+/* I have added more online platforms to contact with the users and when user will hover on these icons then it will directly take users to my mentioned accounts */
+.icons a{
+    text-decoration: none;
+    color: #fff;
+}
+.icons ion-icon{
+    color: cyan;
+    font-size: 40px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+.icons ion-icon:hover{
+    color: rgb(157, 196, 229);
+}
